@@ -1,31 +1,32 @@
-# Mehedi Hasan – Portfolio Website
+MEHEDI HASAN – PORTFOLIO WEBSITE
+================================
 
-A responsive, static portfolio website for Mehedi Hasan, designed for easy free hosting on Vercel.
+This is a complete static website package for free hosting on Vercel.
 
-## Quick deploy to Vercel (free)
+FILES
+- index.html: website structure and content
+- style.css: responsive premium design
+- script.js: German/English switch, certificate gallery, mobile menu and animations
+- assets/mehedi-photo.png: professional portrait
+- assets/Mehedi_Hasan_CV.pdf: downloadable CV
+- assets/certificates/Weiterbildung-Original.pdf: original six-page certificate PDF
+- assets/certificates/certificate-01.jpg ... certificate-06.jpg: gallery previews
 
-1. Unzip `mehedi-portfolio-vercel.zip`.
-2. Open https://vercel.com and sign in (a free Hobby account is sufficient for a personal portfolio).
-3. Choose **Add New → Project**.
-4. Import this folder from a GitHub repository, or use Vercel's CLI as described below.
-5. Framework preset: **Other**. Build command: leave empty. Output directory: `.` (project root).
-6. Deploy.
+UPLOAD TO GITHUB USING THE WEBSITE (NO GIT REQUIRED)
+1. Download and extract this ZIP on your computer.
+2. Open your existing repository: https://github.com/abdullahalmostakim572/Mehedi-Hasan
+3. Click Add file -> Upload files.
+4. Open the extracted folder and select ALL its contents (index.html, style.css, script.js, README.txt, vercel.json and assets folder).
+5. Drag the selected files/folders into GitHub's upload area. Keep the assets subfolders intact.
+6. Commit changes to the main branch.
+7. Vercel should automatically redeploy from the connected GitHub repository.
+8. Check https://mehedi-hasan1.vercel.app after deployment.
 
-### Easiest reliable method: GitHub + Vercel
-1. Create a new GitHub repository, e.g. `mehedi-portfolio`.
-2. Upload all files and the `assets` folder from this unzipped project.
-3. In Vercel, import that GitHub repository and click Deploy.
-4. Future edits to the GitHub repository will automatically redeploy.
-
-### Add Mehedi's photo
-- Add a portrait photo named exactly `mehedi-photo.jpg` inside the `assets` folder.
-- The website will display it automatically. Use a clear, professional portrait in vertical format.
-- No code changes are required.
-
-### Update CV
-- Replace `assets/Mehedi_Hasan_CV.pdf` with the latest CV PDF, keeping the same filename.
-
-## Important
-- This is a static HTML/CSS/JavaScript website. No paid services, database, server, or build step is required.
-- Check phone number, email, address, employment dates and all details before publishing.
-- The site includes German and English language switching.
+IMPORTANT
+- Upload the contents of the extracted folder, not the enclosing folder itself.
+- Keep the exact filenames and folder structure.
+- Do not delete Vercel project settings.
+- Responsibilities section uses the responsibility descriptions supplied for the profile. Confirm that these accurately describe Mehedi's own duties before public launch.
+- The original certificate PDF is included as requested. It contains date of birth information on some pages; it is publicly accessible when deployed.
+- WhatsApp link is set to +41 76 505 68 68.
+- This is a static website. No build command is required. Vercel can serve the project root directly.

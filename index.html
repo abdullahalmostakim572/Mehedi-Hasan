@@ -1,182 +1,141 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#152b25">
-  <meta name="description" content="Mehedi Hasan – Chef de Rang und Restaurationsfachmann EFZ in Zürich.">
-  <title>Mehedi Hasan | Chef de Rang · Zürich</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17372e">
+<meta name="description" content="Mehedi Hasan – Chef de Rang, Restaurationsfachmann EFZ in Zürich. Berufserfahrung, Qualifikationen und Zertifikate.">
+<meta property="og:title" content="Mehedi Hasan | Chef de Rang – Zürich">
+<meta property="og:description" content="Hospitality professional · Zürich, Switzerland">
+<meta property="og:type" content="website">
+<title>Mehedi Hasan | Chef de Rang · Zürich</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#home" aria-label="Mehedi Hasan Startseite"><span class="brand-mark">MH</span><span>MEHEDI HASAN</span></a>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#profil" data-i18n="navAbout">Profil</a>
-      <a href="#erfahrung" data-i18n="navExperience">Erfahrung</a>
-      <a href="#ausbildung" data-i18n="navEducation">Ausbildung</a>
-      <a href="#kontakt" data-i18n="navContact">Kontakt</a>
-    </nav>
-    <div class="nav-actions">
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">EN</button>
-      <a class="nav-cta" href="#kontakt" data-i18n="navCta">Kontakt aufnehmen</a>
+<header class="site-header">
+  <a class="brand" href="#home"><span class="monogram">MH</span><span>MEHEDI HASAN</span></a>
+  <nav id="navigation" class="navigation">
+    <a href="#profil" data-i18n="navProfile">Profil</a><a href="#erfahrung" data-i18n="navExperience">Erfahrung</a>
+    <a href="#qualifikationen" data-i18n="navQualifications">Qualifikationen</a><a href="#kontakt" data-i18n="navContact">Kontakt</a>
+  </nav>
+  <div class="header-actions"><button id="languageToggle" class="language-toggle" type="button">EN</button><a class="header-cta" href="#kontakt" data-i18n="navCta">Kontakt aufnehmen</a></div>
+  <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy reveal">
+    <p class="eyebrow"><span></span><span data-i18n="eyebrow">HOSPITALITY PROFESSIONAL · ZÜRICH, SCHWEIZ</span></p>
+    <h1><span data-i18n="heroLine1">Gastfreundschaft mit</span><br><em data-i18n="heroLine2">Erfahrung & Haltung.</em></h1>
+    <p class="hero-description" data-i18n="heroText">Ich bin Mehedi Hasan, ausgebildeter Restaurationsfachmann EFZ und erfahrener Chef de Rang. Meine berufliche Laufbahn umfasst verschiedene Restaurant- und Hotelbetriebe in Zürich und Umgebung.</p>
+    <div class="hero-buttons"><a class="button button-gold" href="#erfahrung"><span data-i18n="explore">Berufserfahrung entdecken</span><b>↗</b></a><a class="button button-outline" href="assets/Mehedi_Hasan_CV.pdf" download><span data-i18n="downloadCv">Lebenslauf herunterladen</span><b>↓</b></a></div>
+    <div class="hero-facts"><div><strong>EFZ</strong><span data-i18n="factQualification">Restaurationsfachmann</span></div><div><strong>C</strong><span data-i18n="factPermit">Niederlassungsbewilligung</span></div><div><strong>3</strong><span data-i18n="factLanguages">Sprachen</span></div></div>
+  </div>
+  <div class="hero-photo-wrap reveal">
+    <div class="photo-frame"><img src="assets/mehedi-photo.png" alt="Mehedi Hasan – professionelles Porträt"></div>
+    <div class="photo-caption"><span class="caption-mark">✳</span><div><strong>Zürich, Schweiz</strong><small data-i18n="photoCaption">Offen für neue berufliche Möglichkeiten</small></div></div>
+    <div class="vertical-note">SERVICE · HOSPITALITY · LEADERSHIP</div>
+  </div>
+  <a class="scroll-link" href="#profil"><span></span><small data-i18n="scroll">WEITER ENTDECKEN</small></a>
+</section>
+
+<section class="section about" id="profil">
+  <div class="section-label"><span>01</span><span data-i18n="aboutLabel">PROFIL</span></div>
+  <div class="two-column">
+    <h2 data-i18n="aboutTitle">Professioneller Service beginnt mit echter Aufmerksamkeit.</h2>
+    <div><p class="lead" data-i18n="aboutText">Mit langjähriger Berufserfahrung in der Zürcher Gastronomie verbinde ich eine abgeschlossene Berufsausbildung als Restaurationsfachmann EFZ mit vielseitigen Einblicken in Restaurant- und Hotelbetriebe. Mein beruflicher Weg umfasst unterschiedliche Serviceumfelder und Aufgaben in der Gastronomie.</p>
+      <div class="profile-details"><div><small data-i18n="labelQualification">QUALIFIKATION</small><b>Restaurationsfachmann EFZ</b></div><div><small data-i18n="labelLocation">STANDORT</small><b>8045 Zürich, Schweiz</b></div><div><small data-i18n="labelPermit">AUFENTHALTSSTATUS</small><b>Niederlassungsbewilligung C</b></div></div>
     </div>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-glow"></div>
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">GASTRONOMIE · ZÜRICH, SCHWEIZ</span></p>
-        <h1><span data-i18n="heroIntro">Gastfreundschaft mit</span><br><em data-i18n="heroEm">Erfahrung & Haltung.</em></h1>
-        <p class="hero-text" data-i18n="heroText">Ich bin Mehedi Hasan, ausgebildeter Restaurationsfachmann EFZ und erfahrener Chef de Rang. Seit vielen Jahren bin ich in der Gastronomie in Zürich und Umgebung tätig.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#erfahrung"><span data-i18n="heroButton1">Berufserfahrung entdecken</span><span aria-hidden="true">↗</span></a>
-          <a class="button button-outline" href="assets/Mehedi_Hasan_CV.pdf" download><span data-i18n="heroButton2">Lebenslauf herunterladen</span><span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-meta">
-          <div><strong>EFZ</strong><span data-i18n="meta1">Restaurationsfachmann</span></div>
-          <div><strong>CH</strong><span data-i18n="meta2">Niederlassungsbewilligung C</span></div>
-          <div><strong>3</strong><span data-i18n="meta3">Sprachen</span></div>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="photo-frame">
-          <div class="photo-placeholder" id="photoPlaceholder">
-            <div class="photo-icon">＋</div>
-            <span data-i18n="photoHint">PORTRÄTFOTO HIER EINFÜGEN</span>
-            <small data-i18n="photoSub">Ersetze später assets/mehedi-photo.png</small>
-          </div>
-          <img id="portrait" src="assets/mehedi-photo.png" alt="Porträt von Mehedi Hasan" onerror="this.style.display='none'">
-        </div>
-        <div class="floating-note"><span class="note-star">✳</span><div><strong>Zürich</strong><small data-i18n="note">Bereit für neue Herausforderungen</small></div></div>
-        <div class="vertical-label">HOSPITALITY · SERVICE · PEOPLE</div>
-      </div>
-      <a class="scroll-cue" href="#profil"><span></span><small data-i18n="scroll">WEITER ENTDECKEN</small></a>
-    </section>
+<section class="experience-section" id="erfahrung">
+ <div class="section section-inner">
+  <div class="section-label light"><span>02</span><span data-i18n="experienceLabel">BERUFLICHER WERDEGANG</span></div>
+  <div class="section-heading"><h2 data-i18n="experienceTitle">Erfahrung, die<br><em>Vertrauen schafft.</em></h2><p data-i18n="experienceIntro">Berufliche Stationen in der Schweizer Gastronomie und Hotellerie.</p></div>
+  <div class="timeline">
+    <article class="job current"><div class="job-date">09.2025 – <span data-i18n="today">heute</span></div><div class="job-main"><small data-i18n="currentPosition">AKTUELLE POSITION</small><h3>Chef de Rang</h3><p>Haus zum Rüden <i>·</i> Zürich</p></div><span class="job-mark">↗</span></article>
+    <article class="job"><div class="job-date">09.2024 – 03.2025</div><div class="job-main"><h3>Chef de Rang</h3><p>Restaurant Die Waid <i>·</i> Zürich</p></div></article>
+    <article class="job"><div class="job-date">02.2023 – 08.2024</div><div class="job-main"><h3>Chef de Rang</h3><p>Opernhaus Gastro Bernadette <i>·</i> Zürich</p></div></article>
+    <article class="job"><div class="job-date">09.2022 – 01.2023</div><div class="job-main"><h3>Chef de Rang</h3><p>Hotel Engimatt AG <i>·</i> Zürich</p></div></article>
+    <article class="job"><div class="job-date">10.2020 – 06.2022</div><div class="job-main"><h3>Chef de Rang</h3><p>Gasthaus Restaurant Bauernhof <i>·</i> Baar</p></div></article>
+    <article class="job"><div class="job-date">08.2016 – 09.2020</div><div class="job-main"><h3>Restaurationsfachmann EFZ / Chef de Rang</h3><p>Café Bebek <i>·</i> Zürich</p></div></article>
+  </div>
+  <details class="earlier-jobs"><summary data-i18n="earlierJobs">Frühere Berufserfahrung anzeigen <span>＋</span></summary><div class="earlier-content">
+    <p><b>02.2016 – 08.2016</b> Kellner im Service · Restaurant Zeki Gastro AG, Zürich</p>
+    <p><b>08.2015 – 01.2016</b> Kellner im Service · Restaurant Luo Qiulin, Dietikon</p>
+    <p><b>08.2015 – 08.2016</b> Restaurationsangestellter EBA · Stiftung BVZ Berufslehr-Verbund</p>
+    <p><b>12.2013 – 02.2014</b> Aushilfe als Englischlehrer · Looren Schule, Maur</p>
+    <p><b>01.2012 – 12.2013</b> Aushilfe beim Mittagstisch · Looren, Jugend- und Freizeithaus, Maur</p>
+    <p><b>12.2012 – 02.2014</b> Freiwilliger Englischlehrer · Verein Bildung für Alle, Zürich</p>
+  </div></details>
+ </div>
+</section>
 
-    <section class="intro section-wrap" id="profil">
-      <div class="section-kicker"><span>01</span><span data-i18n="aboutKicker">ÜBER MICH</span></div>
-      <div class="intro-grid">
-        <h2 data-i18n="aboutTitle">Ein starker Service beginnt mit echter Aufmerksamkeit.</h2>
-        <div class="intro-content">
-          <p data-i18n="aboutText">Mit langjähriger Berufserfahrung in Restaurants und Hotelbetrieben in Zürich und Umgebung bringe ich eine fundierte Ausbildung und vielseitige Einblicke in die Schweizer Gastronomie mit. Meine berufliche Laufbahn umfasst unterschiedliche Gastronomiebetriebe und Serviceumfelder.</p>
-          <div class="facts">
-            <div><span data-i18n="fact1Label">Ausbildung</span><strong>Restaurationsfachmann EFZ</strong></div>
-            <div><span data-i18n="fact2Label">Standort</span><strong>8045 Zürich, Schweiz</strong></div>
-            <div><span data-i18n="fact3Label">Aufenthaltsstatus</span><strong>Niederlassungsbewilligung C</strong></div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="section responsibilities" id="kompetenzen">
+ <div class="section-label"><span>03</span><span data-i18n="responsibilityLabel">SERVICE & FÜHRUNG</span></div>
+ <div class="section-heading dark-heading"><h2 data-i18n="responsibilityTitle">Verantwortung im<br><em>täglichen Service.</em></h2><p data-i18n="responsibilityIntro">Zentrale Aufgabenbereiche eines Chef de Rang – von der Betreuung der Gäste bis zur Koordination des Service.</p></div>
+ <div class="responsibility-grid">
+  <article class="responsibility-card"><span>01</span><h3 data-i18n="r1Title">Guest Service & Hospitality</h3><p data-i18n="r1Text">Deliver high-quality customer service, ensure guest satisfaction and create a welcoming dining experience.</p></article>
+  <article class="responsibility-card"><span>02</span><h3 data-i18n="r2Title">Banquet & Event Organisation</h3><p data-i18n="r2Text">Organise and coordinate banquets, private events and large functions, including table arrangements, room setup and service preparation.</p></article>
+  <article class="responsibility-card"><span>03</span><h3 data-i18n="r3Title">Team Leadership & Coordination</h3><p data-i18n="r3Text">Lead, supervise and coordinate service staff, delegate responsibilities and support smooth daily operations.</p></article>
+  <article class="responsibility-card"><span>04</span><h3 data-i18n="r4Title">Food & Beverage Service</h3><p data-i18n="r4Text">Take orders, serve food and beverages, provide menu recommendations and maintain professional service standards.</p></article>
+  <article class="responsibility-card"><span>05</span><h3 data-i18n="r5Title">Restaurant Operations</h3><p data-i18n="r5Text">Manage daily service activities, prepare mise en place, handle guest requests and maintain cleanliness and presentation standards.</p></article>
+ </div>
+ <p class="responsibility-note" data-i18n="responsibilityNote">Aufgabenbereiche gemäss bereitgestelltem beruflichem Profil.</p>
+</section>
 
-    <section class="experience-section" id="erfahrung">
-      <div class="section-wrap">
-        <div class="section-kicker light-kicker"><span>02</span><span data-i18n="experienceKicker">BERUFLICHER WERDEGANG</span></div>
-        <div class="section-heading-row">
-          <h2 data-i18n="experienceTitle">Erfahrung, die<br><em>Vertrauen schafft.</em></h2>
-          <p data-i18n="experienceSub">Meine beruflichen Stationen in der Schweizer Gastronomie.</p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item current">
-            <div class="timeline-date">09.2025 – <span data-i18n="today">heute</span></div>
-            <div class="timeline-body"><span class="timeline-tag" data-i18n="currentRole">AKTUELLE POSITION</span><h3>Chef de Rang</h3><p>Haus zum Rüden <span>·</span> Zürich</p></div>
-            <div class="timeline-arrow">↗</div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">09.2024 – 03.2025</div>
-            <div class="timeline-body"><h3>Chef de Rang</h3><p>Restaurant Die Waid <span>·</span> Zürich</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">02.2023 – 08.2024</div>
-            <div class="timeline-body"><h3>Chef de Rang</h3><p>Opernhaus Gastro Bernadette <span>·</span> Zürich</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">09.2022 – 01.2023</div>
-            <div class="timeline-body"><h3>Chef de Rang</h3><p>Hotel Engimatt AG <span>·</span> Zürich</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">10.2020 – 06.2022</div>
-            <div class="timeline-body"><h3>Chef de Rang</h3><p>Gasthaus Restaurant Bauernhof <span>·</span> Baar</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">08.2016 – 09.2020</div>
-            <div class="timeline-body"><h3>Restaurationsfachmann EFZ / Chef de Rang</h3><p>Café Bebek <span>·</span> Zürich</p></div>
-          </article>
-          <details class="older-experience">
-            <summary data-i18n="olderToggle">Frühere Berufserfahrung anzeigen <span>＋</span></summary>
-            <div class="older-list">
-              <p><b>02.2016 – 08.2016</b> Kellner im Service · Restaurant Zeki Gastro AG, Zürich</p>
-              <p><b>08.2015 – 01.2016</b> Kellner im Service · Restaurant Luo Qiulin, Dietikon</p>
-              <p><b>08.2015 – 08.2016</b> Restaurationsangestellter EBA · Stiftung BVZ Berufslehr-Verbund</p>
-              <p><b>12.2013 – 02.2014</b> Aushilfe als Englischlehrer · Looren Schule, Maur</p>
-              <p><b>01.2012 – 12.2013</b> Aushilfe beim Mittagstisch · Looren, Jugend- und Freizeithaus, Maur</p>
-              <p><b>12.2012 – 02.2014</b> Freiwilliger Englischlehrer · Verein Bildung für Alle, Zürich</p>
-            </div>
-          </details>
-        </div>
-      </div>
-    </section>
+<section class="cert-section" id="qualifikationen">
+ <div class="section section-inner">
+  <div class="section-label light"><span>04</span><span data-i18n="certLabel">ZERTIFIKATE & WEITERBILDUNG</span></div>
+  <div class="section-heading"><h2 data-i18n="certTitle">Lernen, wachsen<br><em>und Verantwortung übernehmen.</em></h2><p data-i18n="certIntro">Nachweise der beruflichen Weiterbildung im Bereich Restauration und Hospitality Management.</p></div>
+  <div class="certificate-grid">
+    <button class="certificate-card" data-page="1"><img src="assets/certificates/certificate-01.jpg" alt="Vorbereitungskurs certificate"><span class="certificate-info"><small>15–17.09.2024</small><b data-i18n="cert0">Vorbereitungskurs – Bereichsleiter/in Restauration</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+    <button class="certificate-card" data-page="5"><img src="assets/certificates/certificate-05.jpg" alt="Module 1 certificate"><span class="certificate-info"><small>06.01.2025</small><b data-i18n="cert1">Modul 1 – Restauration</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+    <button class="certificate-card" data-page="6"><img src="assets/certificates/certificate-06.jpg" alt="Module 2 certificate"><span class="certificate-info"><small>29.04.2025</small><b data-i18n="cert2">Modul 2 – Marketing und Verkauf</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+    <button class="certificate-card" data-page="2"><img src="assets/certificates/certificate-02.jpg" alt="Module 3 certificate"><span class="certificate-info"><small>22.08.2024</small><b data-i18n="cert3">Modul 3 – Betriebsorganisation</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+    <button class="certificate-card" data-page="3"><img src="assets/certificates/certificate-03.jpg" alt="Module 4 certificate"><span class="certificate-info"><small>22.08.2024</small><b data-i18n="cert4">Modul 4 – Führung</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+    <button class="certificate-card" data-page="4"><img src="assets/certificates/certificate-04.jpg" alt="Module 5 certificate"><span class="certificate-info"><small>22.08.2024</small><b data-i18n="cert5">Modul 5 – Finanzen</b><em data-i18n="viewCertificate">Zertifikat ansehen ↗</em></span></button>
+  </div>
+  <a class="button button-gold certificate-download" href="assets/certificates/Weiterbildung-Original.pdf" target="_blank" rel="noopener"><span data-i18n="allCertificates">Alle Originalzertifikate ansehen (PDF)</span><b>↗</b></a>
+ </div>
+</section>
 
-    <section class="credentials section-wrap" id="ausbildung">
-      <div class="section-kicker"><span>03</span><span data-i18n="educationKicker">AUSBILDUNG & KENNTNISSE</span></div>
-      <div class="credentials-grid">
-        <div>
-          <h2 data-i18n="educationTitle">Fundament aus<br><em>Ausbildung & Praxis.</em></h2>
-          <div class="education-list">
-            <div class="education-item"><span>2016 – 2019</span><div><h3>Eidgenössisches Fähigkeitszeugnis (EFZ)</h3><p>Restaurationsfachmann</p></div></div>
-            <div class="education-item"><span>2015 – 2016</span><div><h3>Eidgenössisches Berufsattest (EBA)</h3><p>Restaurationsangestellter · 1. Lehrjahr</p></div></div>
-            <div class="education-item"><span>03.2020 – 04.2020</span><div><h3>Berufsbildner</h3><p>GastroZürich</p></div></div>
-            <div class="education-item"><span>04.2025 – 08.2025</span><div><h3>ECDL Standard Certificate</h3><p>Computer Essentials, Word, Excel, PowerPoint, Online Collaboration und IT Security</p></div></div>
-            <div class="education-item"><span>2013 – 2015</span><div><h3>Deutschkurse</h3><p>Benedict Schule Zürich</p></div></div>
-          </div>
-        </div>
-        <div class="skills-panel">
-          <div class="skill-block">
-            <p class="skill-label" data-i18n="languages">SPRACHEN</p>
-            <div class="language-row"><span>Deutsch</span><strong data-i18n="fluent">Fliessend</strong></div>
-            <div class="language-row"><span>Englisch</span><strong data-i18n="fluent">Fliessend</strong></div>
-            <div class="language-row"><span>Bengalisch</span><strong data-i18n="native">Muttersprache</strong></div>
-          </div>
-          <div class="skill-block">
-            <p class="skill-label" data-i18n="additional">WEITERE ANGABEN</p>
-            <div class="language-row"><span data-i18n="permit">Aufenthaltsbewilligung</span><strong>Niederlassungsbewilligung C</strong></div>
-            <div class="language-row"><span data-i18n="license">Führerausweis</span><strong>Kategorie B</strong></div>
-            <div class="language-row"><span data-i18n="since">In der Schweiz seit</span><strong>18.05.2012</strong></div>
-          </div>
-          <div class="skill-block">
-            <p class="skill-label" data-i18n="interests">INTERESSEN</p>
-            <div class="interest-chips"><span>Cricket</span><span>Fitness</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="section education" id="bildung">
+ <div class="section-label"><span>05</span><span data-i18n="educationLabel">AUSBILDUNG & KENNTNISSE</span></div>
+ <div class="education-layout"><div><h2 data-i18n="educationTitle">Fundament aus<br><em>Ausbildung & Praxis.</em></h2>
+  <div class="education-list">
+   <div><small>2016 – 2019</small><article><b>Eidgenössisches Fähigkeitszeugnis (EFZ)</b><p>Restaurationsfachmann</p></article></div>
+   <div><small>2015 – 2016</small><article><b>Eidgenössisches Berufsattest (EBA)</b><p>Restaurationsangestellter · 1. Lehrjahr</p></article></div>
+   <div><small>03.2020 – 04.2020</small><article><b>Berufsbildner</b><p>GastroZürich</p></article></div>
+   <div><small>04.2025 – 08.2025</small><article><b>ECDL Standard Certificate</b><p>Computer Essentials, Word, Excel, PowerPoint, Online Collaboration und IT Security</p></article></div>
+   <div><small>2013 – 2015</small><article><b>Deutschkurse</b><p>Benedict Schule Zürich</p></article></div>
+  </div>
+ </div>
+ <aside class="skills-panel">
+  <div><h3 data-i18n="languages">SPRACHEN</h3><p><span>Deutsch</span><b data-i18n="fluent">Fliessend</b></p><p><span>Englisch</span><b data-i18n="fluent">Fliessend</b></p><p><span>Bengalisch</span><b data-i18n="native">Muttersprache</b></p></div>
+  <div><h3 data-i18n="additional">WEITERE ANGABEN</h3><p><span data-i18n="residence">Aufenthaltsbewilligung</span><b>Niederlassungsbewilligung C</b></p><p><span data-i18n="driving">Führerausweis</span><b>Kategorie B</b></p><p><span data-i18n="swissSince">In der Schweiz seit</span><b>18.05.2012</b></p></div>
+  <div><h3 data-i18n="interests">INTERESSEN</h3><div class="chips"><span>Cricket</span><span>Fitness</span></div></div>
+ </aside></div>
+</section>
 
-    <section class="contact-section" id="kontakt">
-      <div class="contact-inner">
-        <div class="section-kicker light-kicker"><span>04</span><span data-i18n="contactKicker">KONTAKT</span></div>
-        <h2 data-i18n="contactTitle">Lassen Sie uns<br><em>ins Gespräch kommen.</em></h2>
-        <p data-i18n="contactText">Für berufliche Möglichkeiten und Fragen erreichen Sie mich gerne direkt.</p>
-        <div class="contact-links">
-          <a href="tel:+41765056868"><span class="contact-icon">↗</span><span><small>TELEFON</small><strong>+41 76 505 68 68</strong></span></a>
-          <a href="mailto:mehedihasan1312@yahoo.com"><span class="contact-icon">↗</span><span><small>EMAIL</small><strong>mehedihasan1312@yahoo.com</strong></span></a>
-          <div><span class="contact-icon">⌖</span><span><small>ADRESSE</small><strong>Schweighofstrasse 57, 8045 Zürich</strong></span></div>
-        </div>
-        <a class="button button-light" href="assets/Mehedi_Hasan_CV.pdf" download><span data-i18n="downloadCv">Lebenslauf herunterladen</span><span>↓</span></a>
-      </div>
-      <div class="contact-decoration">MH</div>
-    </section>
-  </main>
+<section class="contact-section" id="kontakt">
+ <div class="contact-content"><div class="section-label light"><span>06</span><span data-i18n="contactLabel">KONTAKT</span></div><h2 data-i18n="contactTitle">Lassen Sie uns<br><em>ins Gespräch kommen.</em></h2><p data-i18n="contactText">Für berufliche Möglichkeiten und Fragen erreichen Sie mich gerne direkt.</p>
+  <div class="contact-methods">
+   <a href="tel:+41765056868"><span>↗</span><small>TELEFON</small><b>+41 76 505 68 68</b></a>
+   <a href="mailto:mehedihasan1312@yahoo.com"><span>↗</span><small>EMAIL</small><b>mehedihasan1312@yahoo.com</b></a>
+   <a href="https://wa.me/41765056868?text=Guten%20Tag%20Mehedi%2C%20ich%20habe%20Ihr%20Portfolio%20gesehen%20und%20m%C3%B6chte%20Sie%20wegen%20einer%20beruflichen%20M%C3%B6glichkeit%20kontaktieren." target="_blank" rel="noopener"><span>↗</span><small>WHATSAPP</small><b data-i18n="whatsappLabel">Direkt Nachricht senden</b></a>
+   <div><span>⌖</span><small>ADRESSE</small><b>Schweighofstrasse 57, 8045 Zürich</b></div>
+  </div>
+  <div class="contact-buttons"><a class="button button-gold" href="assets/Mehedi_Hasan_CV.pdf" download><span data-i18n="downloadCv">Lebenslauf herunterladen</span><b>↓</b></a><a class="button button-outline" href="https://wa.me/41765056868?text=Guten%20Tag%20Mehedi%2C%20ich%20habe%20Ihr%20Portfolio%20gesehen." target="_blank" rel="noopener"><span>WhatsApp</span><b>↗</b></a></div>
+ </div>
+ <div class="contact-watermark">MH</div>
+</section>
+</main>
+<footer class="footer"><a class="brand" href="#home"><span class="monogram">MH</span><span>MEHEDI HASAN</span></a><span>© <span id="year"></span> Mehedi Hasan</span><a href="#home" data-i18n="backTop">Zurück nach oben ↑</a></footer>
 
-  <footer class="footer">
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">MH</span><span>MEHEDI HASAN</span></a>
-    <span>© <span id="year"></span> Mehedi Hasan</span>
-    <a href="#home" data-i18n="backTop">Zurück nach oben ↑</a>
-  </footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="modal" id="certificateModal" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-dialog" role="dialog" aria-modal="true" aria-label="Certificate preview"><button class="modal-close" data-close aria-label="Schliessen">×</button><div class="modal-top"><span id="modalTitle">Certificate</span><a id="modalPdfLink" href="assets/certificates/Weiterbildung-Original.pdf" target="_blank" rel="noopener" data-i18n="openOriginal">Original-PDF öffnen ↗</a></div><img id="modalImage" src="" alt="Certificate enlarged"></div></div>
+<a class="whatsapp-float" href="https://wa.me/41765056868?text=Guten%20Tag%20Mehedi%2C%20ich%20habe%20Ihr%20Portfolio%20gesehen." target="_blank" rel="noopener" aria-label="Mehedi auf WhatsApp kontaktieren">✆</a>
+<script src="script.js"></script>
+</body></html>
